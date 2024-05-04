@@ -9,7 +9,7 @@ import { UserController } from './controller/user/user.controller';
 @Module({
   imports: [
     MongooseModule.forRoot(
-      'mongodb+srv://sgcriollogal:D85vNtVNs9vfPH3a@backend.fpfmnxv.mongodb.net',
+      'mongodb+srv://sgcriollogal:-BuQiGJTapDry72@backend.fpfmnxv.mongodb.net',
       { dbName: 'backend-test-db' },
     ),
     MongooseModule.forFeature([{ name: 'User', schema: UserSchema }]),
